@@ -1,0 +1,92 @@
+.tickets {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 195px 460px 80px;
+
+  &__header {
+    margin: 0 0 30px;
+
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    margin: 0 0 29px;
+
+    &:last-child {
+      margin: 0 0 39px;
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      width: 295px;
+      height: 92px;
+
+      padding: 12px 0;
+
+      border-radius: 25px;
+      background: rgba(255, 255, 255, 0.25);
+
+      &_name {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+
+        &_exception {
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 28px;
+        }
+      }
+
+      &_price {
+        display: flex;
+        align-items: flex-end;
+
+        font-size: 32px;
+        font-weight: 700;
+
+        &_small {
+          font-size: 20px;
+          font-weight: 700;
+
+          margin: 0 0 3px 5px;
+        }
+      }
+    }
+  }
+
+  &__buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 175px;
+    height: 50px;
+
+    cursor: pointer;
+
+    border-radius: 25px;
+    box-shadow: 0 4px 4px 0 rgba(255, 255, 255, 0.25);
+    background: rgb(123, 188, 120);
+
+    &-text {
+      color: rgb(236, 236, 236);
+
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 19px;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.tickets {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 195px 460px 80px;
+}
+.tickets__header {
+  margin: 0 0 30px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.tickets__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 0 29px;
+}
+.tickets__list:last-child {
+  margin: 0 0 39px;
+}
+.tickets__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 295px;
+  height: 92px;
+  padding: 12px 0;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.25);
+}
+.tickets__list-item_name {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+.tickets__list-item_name_exception {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.tickets__list-item_price {
+  display: flex;
+  align-items: flex-end;
+  font-size: 32px;
+  font-weight: 700;
+}
+.tickets__list-item_price_small {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 3px 5px;
+}
+.tickets__buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 0 4px 4px 0 rgba(255, 255, 255, 0.25);
+  background: rgb(123, 188, 120);
+}
+.tickets__buy-text {
+  color: rgb(236, 236, 236);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+/*# sourceMappingURL=tickets.css.map */

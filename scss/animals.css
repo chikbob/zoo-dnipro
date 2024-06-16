@@ -1,0 +1,46 @@
+.animals {
+  margin: 195px 450px 142px;
+}
+.animals__header {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.animals__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 30px;
+}
+.animals__list:last-child {
+  margin: 0;
+}
+.animals__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.animals__list-item_img {
+  width: 230px;
+  height: 230px;
+}
+.animals__list-item_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: 27px;
+  padding: 0 30px;
+  margin: -8px 0 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: rgb(255, 189, 98);
+}
+
+/*# sourceMappingURL=animals.css.map */
